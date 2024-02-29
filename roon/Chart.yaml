@@ -1,0 +1,17 @@
+apiVersion: v2
+description: Roon Server Helm Chart
+name: roon
+version: 1.0.0
+kubeVersion: ">=1.16.0-0"
+keywords:
+  - roon
+home: https://github.com/HasseJohansen/charts/tree/main/charts/roon
+# icon: https://roonlabs.com/wp-content/uploads/roon_footer_logo.png
+sources:
+  - https://github.com/HasseJohansen/roon-docker-image
+maintainers:
+  - name: HasseJohansen
+dependencies:
+  - name: common
+    repository: https://library-charts.k8s-at-home.com
+    version: 4.5.2
