@@ -43,19 +43,14 @@ persistence:
     size: 5Gi
     storageClass: "ssd"
     retain: true
-    accessMode: "ReadWriteOnce"
   music:
     enabled: true
     size: 300Gi
     storageClass: "ssd"
-    retain: true
-    accessMode: "ReadWriteOnce"
   backups:
     enabled: true
     size: 20Gi
     storageClass: "-"
-    retain: true
-    accessMode: "ReadWriteOnce"
   ## Might cause a small speedup, not entirely clear. Depends on what you might have backing your config pvc.
   ## Test and see if you like it.
   # cache:
