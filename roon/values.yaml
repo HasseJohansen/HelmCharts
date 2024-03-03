@@ -41,19 +41,19 @@ persistence:
     enabled: true
     mountPath: /var/roon/
     size: 5Gi
-    storageClass: "ssd"
+    storageClass: "longhorn"
     retain: true
     accessMode: "ReadWriteOnce"
   music:
     enabled: true
     size: 300Gi
-    storageClass: "ssd"
+    storageClass: "longhorn"
     retain: true
     accessMode: "ReadWriteOnce"
   backups:
     enabled: true
     size: 20Gi
-    storageClass: "-"
+    storageClass: "longhorn"
     retain: true
     accessMode: "ReadWriteOnce"
   ## Might cause a small speedup, not entirely clear. Depends on what you might have backing your config pvc.
