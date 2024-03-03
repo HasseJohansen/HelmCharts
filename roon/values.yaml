@@ -38,19 +38,19 @@ ingress:
 # @default -- See values.yaml
 persistence:
   config:
-    enabled: false
+    enabled: true
     mountPath: /var/roon/
     size: 5Gi
-    storageClass: "-"
+    storageClass: "ssd"
     retain: true
-  # music:
-  #   enabled: false
-  #   size: 300Gi
-  #   storageClass: "-"
-  # backups:
-  #   enabled: false
-  #   size: 20Gi
-  #   storageClass: "-"
+  music:
+    enabled: true
+    size: 300Gi
+    storageClass: "ssd"
+  backups:
+    enabled: true
+    size: 20Gi
+    storageClass: "-"
   ## Might cause a small speedup, not entirely clear. Depends on what you might have backing your config pvc.
   ## Test and see if you like it.
   # cache:
