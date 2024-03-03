@@ -8,7 +8,7 @@ keywords:
 home: https://github.com/HasseJohansen/charts/tree/main/charts/roon
 # icon: https://roonlabs.com/wp-content/uploads/roon_footer_logo.png
 sources:
-  - https://github.com/HasseJohansen/roon-docker-image
+  - ghcr.io/hassejohansen/roon:2.0.1368
 maintainers:
   - name: HasseJohansen
 dependencies:
