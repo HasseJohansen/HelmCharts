@@ -10,7 +10,7 @@ hostNetwork: true
 
 image:
   # -- image repository
-  repository: ghcr.io/HasseJohansen/roon
+  repository: ghcr.io/hassejohansen/roon
   # -- image tag
   tag: 2.0.1368
   # -- image pull policy
