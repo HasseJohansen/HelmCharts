@@ -12,7 +12,7 @@ image:
   # -- image repository
   repository: ghcr.io/hassejohansen/roon
   # -- image tag
-  tag: 2.0.1368
+  tag: 2.0.1382
   # -- image pull policy
   pullPolicy: IfNotPresent
 
