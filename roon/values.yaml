@@ -14,7 +14,7 @@ image:
   # -- image tag
   tag: 2.0.1382
   # -- image pull policy
-  pullPolicy: IfNotPresent
+  pullPolicy: Always
 
 # -- environment variables. See more environment variables in the [roon documentation](https://roon.org/docs).
 # @default -- See below
