@@ -1,7 +1,7 @@
 apiVersion: v2
 description: Roon Server Helm Chart
 name: roon
-version: 2.0.1388
+version: 2.0.1389
 kubeVersion: ">=1.16.0-0"
 keywords:
   - roon
